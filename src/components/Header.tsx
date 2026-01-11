@@ -1,4 +1,4 @@
-import { Shield, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
@@ -16,13 +16,10 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="container-wide">
         <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
-            <div className="relative">
-              <Shield className="h-8 w-8 text-primary transition-transform duration-300 group-hover:scale-110" />
-              <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
-            <span className="font-display font-bold text-xl">TruthGuard</span>
+          
+          {/* Text Logo ONLY */}
+          <a href="#" className="font-display font-bold text-xl">
+            TruthGuard
           </a>
 
           {/* Desktop Navigation */}
