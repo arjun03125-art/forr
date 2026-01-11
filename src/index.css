@@ -165,3 +165,10 @@
     background: var(--gradient-glow);
   }
 }
+/* FORCE HIDE LOVABLE BADGE */
+iframe[src*="lovable"],
+a[href*="lovable"],
+div[id*="lovable"],
+div[class*="lovable"] {
+  display: none !important;
+}
