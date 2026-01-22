@@ -4,8 +4,6 @@ import StaggerChildren from "./StaggerChildren";
 
 const impactStats = [
   { icon: Target, value: "98.5%", label: "Accuracy Rate" },
-  { icon: Users, value: "50K+", label: "Daily Users" },
-  { icon: TrendingUp, value: "1M+", label: "Articles Analyzed" },
 ];
 
 const roadmapItems = [
