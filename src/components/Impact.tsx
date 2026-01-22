@@ -52,9 +52,13 @@ const Impact = () => {
         </ScrollReveal>
 
         {/* Impact Stats */}
-        <StaggerChildren className="grid md:grid-cols-3 gap-6 mb-16" staggerDelay={0.12}>
+         <StaggerChildren className="grid md:grid-cols-3 gap-6 mb-16 justify-items-center" staggerDelay={0.12}>
           {impactStats.map((stat, index) => (
-            <div key={index} className="glass-card p-8 text-center hover-lift">
+            <div
+                key={index}
+                 className="glass-card p-8 text-center hover-lift md:col-span-3 max-w-sm"
+                  >
+
               <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-primary/10 flex items-center justify-center">
                 <stat.icon className="h-7 w-7 text-primary" />
               </div>
